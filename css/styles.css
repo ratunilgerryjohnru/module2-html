@@ -43,11 +43,11 @@ ul {
 
 a {
     text-decoration: none;
-    color: #0077cc;
+    color: #3b0202;
 }
 
 a:hover {
-    color: #005fa3
+    color: #3b0202
 }
 
 table {
@@ -60,7 +60,7 @@ table {
     padding: 8px;
     }
     th {
-    background-color: #0077cc;
+    background-color: #3b0202;
     color: white;
     }
 
@@ -71,16 +71,16 @@ table {
         }
         input, textarea {
         padding: 8px;
-        border: 1px solid #ccc;
+        border: 1px solid #3b0202;
         border-radius: 4px;
         }
         button {
         padding: 10px;
-        background-color: #0077cc;
+        background-color: #3b0202;
         color: white;
         border: none;
         cursor: pointer;
         }
         button:hover {
-        background-color: #005fa3;
+        background-color: #3b0202;
         }
