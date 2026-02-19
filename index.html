@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+   <button id="themeToggle">Toggle Dark Mode</button> 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/styles.css">
@@ -8,7 +9,7 @@
 </head>
 <body>
   <div class="container">
-  <section class="card">
+  <section class="card">   
     <h1>Gerry Johnru G. Ratunil</h1>
     <p>IT STUDENT | Web Systems and Technologies</p>
     <h2>About Me</h2>
@@ -18,8 +19,8 @@
       Email:
       <a href="mailto:ratunil.gerryjohnru@gmail.com">ratunil.gerryjohnru@gmail.com</a><br>
       GitHub:
-      <a href="https://github.com/ratunilgerryjohnru/first-repo" target="_blank">
-        https://github.com/ratunilgerryjohnru/first-repo
+      <a href="https://github.com/ratunilgerryjohnru/module2-html" target="_blank">
+        https://github.com/ratunilgerryjohnru/module2-html
       </a>
     <p>
       I am 19 years old from Gran Europa Lumbia and I drive a motorcycle to go to school.
@@ -27,8 +28,8 @@
     </p>
 
   </section class>
-
-  <section class="card">
+  <button id="toggleSkills">Show/Hide Skills</button> 
+  <section class="card" id="skillsSection"> 
     <h2>Skills</h2>
 
     <ul>
@@ -97,14 +98,15 @@
   <section class="card">
     <h2>Contact Me</h2>
     <form>
-      <input type="text" placeholder="Name"><br><br>
-      <input type="email" placeholder="Email"><br><br>
+      <input type="text" id="name" placeholder="Name"><br><br>
+      <input type="email" id="email" placeholder="Email"><br><br>
       <textarea placeholder="Message"></textarea><br><br>
-      <button type="submit">Send</button>
+      <button type="submit" id="submitBtn">Send</button>
     </form>
   </section class>
   <footer>
     <p>&copy; 2026 Gerry Johnru G. Ratunil: All Right Reserved.</p>
   </footer>
+  <script src="js/script.js"></script>
 </body>
 </div>

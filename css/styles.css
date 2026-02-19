@@ -6,7 +6,7 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #3b0202;
+    background-color: #02ccff;
     padding: 20px;
 }    
 .container {
@@ -43,11 +43,11 @@ ul {
 
 a {
     text-decoration: none;
-    color: #3b0202;
+    color: #02ccff;
 }
 
 a:hover {
-    color: #3b0202
+    color: #02ccff
 }
 
 table {
@@ -60,7 +60,7 @@ table {
     padding: 8px;
     }
     th {
-    background-color: #3b0202;
+    background-color: #02ccff;
     color: white;
     }
 
@@ -71,16 +71,55 @@ table {
         }
         input, textarea {
         padding: 8px;
-        border: 1px solid #3b0202;
+        border: 1px solid #02ccff;
         border-radius: 4px;
         }
         button {
         padding: 10px;
-        background-color: #3b0202ec;
+        background-color: #02ccff;
         color: white;
         border: none;
         cursor: pointer;
         }
         button:hover {
-        background-color: #3b0202;
+        background-color: #02ccff;
         }
+.dark-mode {
+background-color:#222;
+color:white;
+}        
+.dark-mode h1{
+background-color:#222;
+color:white;
+}
+.dark-mode h2{
+background-color:#222;
+color:white;
+}
+.dark-mode a{
+background-color:#222;
+color:white;
+}
+.dark-mode table{
+background-color:#222;
+color:white;
+}
+.dark-mode form{
+background-color:#222;
+color:white;
+}
+.dark-mode th{
+background-color:#222;
+color:white;
+}
+.dark-mode button{
+background-color:#222;
+color:white;
+}
+.dark-mode .card{
+background-color:#aaa9a9;
+color:white;
+}              
+.hidden {
+display:none;
+}
