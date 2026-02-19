@@ -47,7 +47,7 @@ a {
 }
 
 a:hover {
-    color: #02ccff
+    color: #132d33
 }
 
 table {
@@ -67,16 +67,16 @@ table {
     form {
         display: flex;
         flex-direction: column;
-        gap: 10px;
+        gap: 12px;
         }
         input, textarea {
         padding: 8px;
         border: 1px solid #02ccff;
-        border-radius: 4px;
+        border-radius: 1px;
         }
         button {
         padding: 10px;
-        background-color: #02ccff;
+        background-color: #000000;
         color: white;
         border: none;
         cursor: pointer;
