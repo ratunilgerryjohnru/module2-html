@@ -92,6 +92,10 @@ color:white;
 background-color:#222;
 color:white;
 }
+.dark-mode th{
+background-color:#2f3942;
+color:white;
+}
 .dark-mode button{
 background-color:#222;
 color:white;
